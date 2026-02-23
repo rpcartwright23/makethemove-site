@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #1C1C1E;
+    color: #E5E5EA;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px;
+}
+
+/* Landing page */
+body > .container {
+    text-align: center;
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #C17F59;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    color: #8E8E93;
+    margin-bottom: 48px;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.links a {
+    color: #C17F59;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: 1px solid rgba(193, 127, 89, 0.3);
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+.links a:hover {
+    background: rgba(193, 127, 89, 0.1);
+    border-color: #C17F59;
+}
+
+.contact {
+    color: #636366;
+    font-size: 0.9rem;
+}
+
+.contact a {
+    color: #8E8E93;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #C17F59;
+}
+
+/* Legal pages */
+.legal-nav {
+    margin-bottom: 40px;
+}
+
+.legal-nav a {
+    color: #C17F59;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.legal-nav a:hover {
+    text-decoration: underline;
+}
+
+.legal h1 {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+
+.effective-date {
+    color: #636366;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+}
+
+.legal h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #C17F59;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.legal p {
+    color: #AEAEB2;
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+}
+
+.legal ul {
+    color: #AEAEB2;
+    margin-bottom: 16px;
+    padding-left: 24px;
+    font-size: 0.95rem;
+}
+
+.legal li {
+    margin-bottom: 8px;
+}
+
+.legal a {
+    color: #C17F59;
+    text-decoration: none;
+}
+
+.legal a:hover {
+    text-decoration: underline;
+}
+
+.legal strong {
+    color: #E5E5EA;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
